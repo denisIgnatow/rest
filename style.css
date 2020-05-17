@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+img {
+  display: block;
+}
+
+button,
+[type = submit] {
+  cursor: pointer;
+}
+
+.container {
+  max-width: 95%;
+  width: 853px;
+  margin: 0 auto;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+.logo {
+  max-width: 200px;
+  margin: 0 auto;
+}
+
+.shild {
+  width: 256px;
+  margin: 30px auto 30px auto;
+}
+
+.background {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 1200px;
+  width: 100%;
+  height: 470px;
+  margin: 0 auto;
+  color: #fff;
+  font-size: 70px;
+  text-shadow: 3px 5px 6px #000, -6px -7px 6px #000;
+  background: url(img/bellag.jpg) top center / cover;
+}
+
+.reg {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.reg__title {
+  text-align: center;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.reg__input {
+  width: 100%;
+  height: 40px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  outline: none;
+}
+
+.reg label div {
+  margin-top: 20px;
+  color: #666;
+  line-height: 30px;
+}
+
+.reg__submit {
+  width: 100%;
+  height: 40px;
+  margin-top: 20px;
+  border: none;
+  outline: none;
+  font-size: 20px;
+  color: #fff;
+  background: #005b70;
+}
+
+.reg__submit:active {
+  border: 1px solid #005b70;
+  color: #005b70;
+  background: none;
+}
+
+footer img {
+  width: 100%;
+}
+
+@media (max-width: 512px) {
+  .background {
+    font-size: 40px;
+  }
+}
